@@ -1,0 +1,13 @@
+.third_section__title {
+  font-size: 25px;
+  color: white;
+  transform: scale(1, 2);
+}
+.third_section__separ {
+  height: 1px;
+  width: 205px;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+/*# sourceMappingURL=third_section.css.map */

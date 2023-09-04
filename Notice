@@ -1,0 +1,25 @@
+/*
+let servicesArr = document.querySelectorAll('.service_item');
+let i = 0;
+
+function showServiceItem(arr) {
+    return arr.forEach((elem, index) => {
+        if (index === i || index === i+1 || index === i+2) {
+            elem.style.display = 'flex'
+        } else if (i > arr.length){
+            i = 0;
+        }
+        else {
+            elem.style.display = 'none';
+        }
+    })
+}
+
+showServiceItem(servicesArr);
+
+function handlerTest() {
+    i++;
+    showServiceItem(servicesArr);
+}
+
+nextButton.addEventListener("click", handler);*/

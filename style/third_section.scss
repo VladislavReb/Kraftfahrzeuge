@@ -1,0 +1,208 @@
+.third_section {
+  padding: 45px 0;
+
+  &__wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  &__title {
+    font-size: 25px;
+    color: white;
+    transform: scale(1, 2);
+  }
+
+  &__separ {
+    height: 1px;
+    width: 205px;
+    border: 1px solid white;
+    border-radius: 15px;
+  }
+
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1700px;
+
+    .third_section__img {
+      display: none;
+    }
+
+    .img_1 {
+      animation: spin 2s;
+    }
+
+    .img_2 {
+      animation: spinSecond 2s;
+      animation-delay: 500ms;
+    }
+
+    .img_3 {
+      animation: spin 2s;
+      animation-delay: 500ms;
+    }
+
+    .img_4 {
+      animation: spinSecond 2s;
+      animation-delay: 500ms;
+    }
+
+    .img_5 {
+      animation: spin 2s;
+      animation-delay: 1s;
+    }
+
+    .img_6 {
+      animation: spinSecond 2s;
+      animation-delay: 1s;
+    }
+
+    .img_7 {
+      animation: spin 2s;
+      animation-delay: 1s;
+    }
+
+    .img_8 {
+      animation: spinSecond 2s;
+      animation-delay: 1s;
+    }
+
+    .img_9 {
+      animation: spin 2s;
+      animation-delay: 1s;
+    }
+
+    .img_10 {
+      animation: spinSecond 2s;
+      animation-delay: 1500ms;
+    }
+
+    .img_11 {
+      animation: spin 2s;
+      animation-delay: 1500ms;
+    }
+
+    .img_12 {
+      animation: spinSecond 2s;
+      animation-delay: 1500ms;
+    }
+
+    .img_13 {
+      animation: spin 2s;
+      animation-delay: 2s;
+    }
+
+    .img_14 {
+      animation: spinSecond 2s;
+      animation-delay: 2s;
+    }
+
+    .img_15 {
+      animation: spin 2s;
+      animation-delay: 2s;
+    }
+
+    .img_16 {
+      animation: spinSecond 2s;
+      animation-delay: 3s;
+    }
+
+    .img_17 {
+      animation: spin 2s;
+      animation-delay: 3s;
+    }
+
+    .img_18 {
+      animation: spinSecond 2s;
+      animation-delay: 2500ms;
+    }
+
+    @keyframes spin {
+      from {
+        transform: rotateX(360deg);
+      }
+      to {
+        transform: rotateX(0deg);
+      }
+    }
+
+    @keyframes spinSecond {
+      from {
+        transform: rotateY(360deg);
+      }
+      to {
+        transform: rotateY(0deg);
+      }
+    }
+  }
+
+  &__img {
+    height: 210px;
+    width: 250px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1300px) {
+
+  .img_17 {
+    display: none !important;
+  }
+
+  .img_18 {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .third_section {
+    padding: 45px 0 10px;
+
+    &__wrapper {
+      gap: 40px;
+    }
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__img {
+      height: 155px;
+      width: 192px;
+    }
+
+    .img_17 {
+      display: none !important;
+    }
+
+    .img_18 {
+      display: none !important;
+    }
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .third_section {
+    padding: 25px 0 10px;
+
+    &__wrapper {
+      gap: 20px;
+    }
+
+    &__title {
+      font-size: 12px;
+    }
+
+    &__separ {
+      width: 100px;
+    }
+
+    &__img {
+      height: 100px;
+      width: 125px;
+    }
+  }
+}

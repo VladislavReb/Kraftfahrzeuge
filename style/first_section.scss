@@ -1,0 +1,264 @@
+.first_section {
+  margin-left: - 3px;
+  background-image: url("../img/main_img.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  .header {
+    display: flex;
+    justify-content: space-around;
+    padding: 35px 10px;
+
+    a {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+
+      &:hover {
+        color: $mt_color;
+      }
+    }
+
+    .mobile__menu {
+      display: none;
+    }
+  }
+
+  .mobile__links {
+    display: none;
+  }
+
+  .main_banner {
+    margin: 45px 0 0 75px;
+    padding: 105px 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    transform: translateX(-150%);
+    animation: block 2s forwards;
+
+    @keyframes block {
+      0% {transform: translateX(-150%);}
+      100% {transform: translateY(0);}
+    }
+
+    &__name {
+      font-family: 'Black Ops One', sans-serif;
+      font-size: 60px;
+      color: $mt_color;
+    }
+
+    &__separ {
+      margin-left: 125px;
+      height: 1px;
+      width: 205px;
+      border: 1px solid $mt_color;
+      border-radius: 15px;
+    }
+
+    &__text {
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+    }
+  }
+
+  .main_contact_wrapper {
+    margin-top: 140px;
+    margin-left: 3px;
+    display: flex;
+    justify-content: space-between;
+
+    .main_contact {
+      padding-top: 35px;
+      height: 135px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+
+      &__title, &__content {
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+      }
+
+      &__content {
+        color: $mt_color;
+      }
+    }
+
+    .fst_prt {
+      border-top:   1px solid white;
+      border-right:  1px solid white;
+      border-bottom: 1px solid white;
+
+      & a {
+        text-decoration: underline;
+      }
+    }
+
+    .sec_prt {
+      border-top:   1px solid white;
+      border-bottom: 1px solid white;
+    }
+
+    .frt_prt {
+      border-top:   1px solid white;
+      border-bottom: 1px solid white;
+      border-left:  1px solid white;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .first_section {
+    .header {
+      a {
+        font-size: 18px;
+      }
+    }
+
+    .main_banner {
+      margin: 45px 0 0 50px;
+      padding: 105px 0 0;
+
+      &__name {
+        font-size: 50px;
+      }
+
+      &__separ {
+        margin-left: 35px;
+      }
+
+      &__text {
+        font-size: 18px;
+      }
+    }
+
+    .main_contact_wrapper {
+      margin-top: 171px;
+
+      .main_contact {
+        padding-top: 15px;
+        height: 90px;
+
+        &__title, &__content {
+          word-wrap: break-word;
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .first_section {
+    position: relative;
+    border-bottom: 1px solid transparent;
+    border-radius: 17px;
+
+    .header {
+      padding: 15px 10px;
+
+      & > a {
+        display: none;
+      }
+
+      .mobile__menu {
+        min-width: 365px;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        cursor: pointer;
+
+        &__dash {
+          width: 31px;
+          height: 31px;
+          border: 2px solid white;
+          border-radius: 3px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 5px;
+
+          .dash {
+            width: 18px;
+            height: 2px;
+            background-color: $mt_color;
+            flex-shrink: 0;
+          }
+        }
+
+        &__contact, &__address {
+          font-size: 12px;
+          font-weight: bold;
+          color: white;
+        }
+      }
+    }
+
+    .mobile__links {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      min-width: 320px;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      gap: 45px;
+      padding: 30px 15px 65px;
+      background-color: $bkg_color;
+      transform: translateX(-150%);
+      /*animation: block 2s forwards;*/ //JS code do it.
+
+      @keyframes block {
+        0% {transform: translateX(-150%);}
+        100% {transform: translateY(0);}
+      }
+
+      @keyframes blockBack {
+        0% {transform: translateY(0);}
+        100% {transform: translateX(-150%);}
+      }
+
+      & > a {
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+      }
+
+      & > img {
+        align-self: end;
+      }
+    }
+
+    .main_banner {
+      margin: 60px 0 0 15px;
+      padding: 0 0 20px 0;
+      gap: 20px;
+
+      &__name {
+        font-size: 25px;
+      }
+
+      &__separ {
+        margin-left: 0;
+        width: 150px;
+      }
+
+      &__text {
+        font-size: 10px;
+      }
+    }
+
+    .main_contact_wrapper {
+      display: none;
+    }
+  }
+}

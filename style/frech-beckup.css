@@ -1,0 +1,591 @@
+/*
+Theme Name: WordPress Frech Daemmtechnik
+Description: Frech Daemmtechnik.
+Version: 2.0
+Author: KSA Media GmbH
+*/
+
+body,div,ul,li,ol,h1,h2,h3,h4,h5,h6,form,fieldset,p {
+    margin:0;
+    padding:0;
+    font-weight:normal;
+}
+
+img,fieldset {
+    border:none;
+    padding:0;
+    margin:0;
+}
+
+body {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:12px;
+    line-height:14px;
+    color:#333;
+    background-color:#ccc;
+}
+
+a {
+    outline:none;
+}
+
+/***************************************************************/
+
+h1 {
+    font-size:14px;
+    font-weight:bold;
+    padding-bottom:8px;
+    color:#666666;
+}
+
+h2 {
+    font-size:12px;
+    font-weight:bold;
+    padding-bottom:8px;
+    color:#666666;
+}
+
+a, a:hover, a:active, a:focus {
+    color:#333;
+}
+
+.caption a:hover {
+    text-decoration: none;
+    color:#ffa200;
+}
+
+.tile-button > a, .tile-button > a:hover, .tile-button > a:active, .tile-button > a:focus {
+    color:white;
+    text-decoration: none;
+}
+
+.nav {
+    background:url(gfx/menu_background.png) repeat-x;
+    background-color:#666666;
+    margin-left:-282px;
+}
+.navbar {
+    z-index:2000;
+    height:129px;
+    background-color:transparent;
+    padding:0;
+    border:0;
+}
+
+.icon {
+    max-width:60px;
+    margin:8px;
+}
+
+.claim {
+    margin-top:62px;
+    margin-left:408px;
+    font-size:1.25em;
+    line-height:1.25em;
+}
+
+.navbar-brand {
+    padding:0;
+    padding-left:15px;
+}
+
+.dropdown-menu {
+    border-radius: 0;
+}
+
+#navbar > ul > li > a {
+    padding:4px;
+    padding-left:12px;
+    padding-right:12px;
+    color:white;
+}
+
+#navbar > ul > li > a:hover {
+    background-color:#ffa200 !important;
+}
+
+.content .page ul,
+.content .sidebar ul {
+    list-style-image:url(gfx/list_dot.png);
+}
+
+.flex-next, .flex-prev {
+    color:#ffa200 !important;
+    font-size:2.5em;
+}
+
+.menu_divider {
+    padding-top:6px;
+    font-size:18px;
+    color:rgba(255,255,255,0.5);
+}
+
+#navbar {
+    margin-top:103px;
+    margin-left:282px;
+    padding-left:0;
+    background:url(gfx/menu_background.png) repeat-x;
+    background-color:#666666;
+}
+
+.navbar > .container {
+    background-color:#ffa200;
+    padding:0;
+    height:103px;
+}
+
+.dropdown-menu .active a {
+    background-color:#ffa200 !important;
+}
+
+html, body {
+    height:100%;
+}
+
+.content {
+    background-color:#f7f7f7;
+    position:relative;
+    min-height:calc(100% - 140px);
+    top:-46px;
+    z-index:10;
+    padding:0;
+}
+
+
+.footer {
+    margin-top:-46px;
+    background-color:#f7f7f7;
+}
+.caption {
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.page {
+    /*margin-left:15px;*/
+    padding-left:40px;
+    padding-top:80px;
+    padding-bottom:40px;
+    padding-right:30px
+}
+
+.page-166, .page-168, .page-1018 {
+    padding-left:15px;
+    padding-right:0;
+}
+
+.page-166 div, .page-168 div, .page-1018 div {
+    padding-left:0;
+    padding-right:3px;
+    margin-bottom:2px;
+}
+
+.page-166 img, .page-168 img {
+    width:100%;
+}
+
+.sidebar {
+    padding-left:0;
+    margin-left:15px;
+    padding-top:80px;
+    padding-right:0px;
+    padding-bottom:30px;
+}
+
+.sidebar img {
+    width:100%;
+    max-width:282px;
+    margin-bottom:3px;
+}
+
+.sidebar .head {
+    font-weight:bold;
+    margin-left:0;
+    padding-top:4px;
+    margin-bottom:10px;
+    padding-left:168px;
+}
+
+#left_top_image {
+    position:absolute;
+    display:none;
+}
+
+.page p {
+    padding-top:5px;
+    padding-bottom:10px;
+    line-height: 18px;
+    color:#666666;
+}
+
+.page ul {
+    margin-left:18px;
+    padding-top:10px;
+    padding-bottom:10px;
+    line-height: 18px;
+    color:#666666;
+}
+
+.sidebar p {
+    margin-left:50px;
+    margin-right:20px;
+    padding-top:0px;
+    padding-bottom:10px;
+    line-height: 18px;
+    color:#666666;
+}
+
+
+.sidebar ul {
+    margin-left:68px;
+    margin-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    line-height: 18px;
+    color:#666666;
+}
+
+.footer {
+    padding:8px;
+    padding-left:64px;
+}
+.fa-colour{
+    color: #ffa200;
+}
+/*Rupali KSA-Media*/
+a.falink, a.falink{
+    padding-left: 10px;
+    color: #ffa200;
+}
+a.falink:hover, a.falink:active, a.falink:focus{
+    color: #333;
+}
+/*Rupali KSA-Media[END]*/
+a:focus {
+    outline: none;
+}
+
+.link, .link:active, .link:focus {
+    padding-left:25px;
+    color:#ffa200;
+}
+
+.highlight, .wpcf7-validation-errors {
+    color:#ffa200 !important;
+}
+
+.wpcf7-not-valid {
+    border: 1px solid #ffa200 !important;
+}
+
+.wpcf7-submit {
+    background-color:#ffa200 !important;
+    color:white;
+    width:auto !important;
+    float:right;
+}
+
+.wpcf7-form-control {
+    border:none;
+    padding:10px;
+    padding-top:5px;
+    background-color:#ededed;
+    border:1px solid #ededed;
+    width:100%;
+}
+
+.wpcf7-quiz, .wpcf7-quiz-label {
+    width:470px;
+    font-weight:normal;
+}
+
+.screen-reader-response, .wpcf7-not-valid-tip {
+    display:none;
+}
+
+.link > .fa {
+    /*font-size:22px;*/
+    font-size:18px;
+    position:absolute;
+    margin-left:-25px;
+}
+
+.tile {
+    position: relative;
+    padding:0;
+    margin:0;
+    width:100%;
+    height:190px;
+    max-width:190px;
+    max-height:190px;
+    background-size:200%;
+    background-repeat:no-repeat;
+    background-position:center center;
+    -moz-transition: background-size 0.5s ease-in;
+    -ms-transition: background-size 0.5s ease-in;
+    -o-transition: background-size 0.5s ease-in;
+    -webkit-transition: background-size 0.5s ease-in;
+    transition: background-size 0.5s ease-in;
+}
+
+.tile:hover {
+    background-size:250%;
+}
+
+.tile > div {
+    text-align:center;
+    width:100%;
+    height:100%;
+    background-color:rgba(255,162,0,0.9);
+    -moz-transition: background-color 0.5s ease-in;
+    -ms-transition: background-color 0.5s ease-in;
+    -o-transition: background-color 0.5s ease-in;
+    -webkit-transition: background-color 0.5s ease-in;
+    transition: background-color 0.5s ease-in;
+}
+
+.tile > div:hover {
+    background-color:rgba(255,162,0,0.5);
+}
+
+.tile > div > p {
+    color:white;
+    font-weight:bold;
+    margin: 0 auto;
+    padding: 65px 0px 65px 0px;
+    position: inherit;
+}
+
+.tile > div > .tile-button {
+    padding:2px;
+    margin-top:50px;
+    background-color:#333;
+    width:50%;
+    color:white;
+    margin:0 auto;
+    font-size:0.8em;
+    -webkit-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.25);
+    position: absolute;
+    top: 70%;
+    left:0px;
+    right: 0px;
+}
+
+.tile-cell-padding {
+    padding:5px;
+    padding-left:0;
+}
+
+table {
+    margin-left:50px;
+    margin-right:50px;
+    width:215px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #d0d0d0;
+}
+
+th, td {
+    padding:3px;
+}
+
+table tr:first-child {
+    background-color:#ededed;
+}
+
+#metaslider_961 .caption-wrap {
+    position:absolute;
+    left:50px;
+    padding:5px;
+    padding-left:15px;
+    bottom:100px;
+    width:calc(100% - 120px);
+    font-size:30px;
+    letter-spacing:2px;
+    font-weight:bold;
+    color:#333;
+    background-color:white;
+}
+
+#metaslider_961 > .flex-control-nav > li {
+    zoom:1;
+    background:transparent;
+    position:relative;
+    top:-60px;
+    z-index:1010;
+}
+#metaslider_961 > .flex-control-nav > li > a {
+    background:rgba(255,162,0,0.5);
+}
+.flex-active {
+    background:rgba(255,162,0,1) !important;
+}
+#metaslider_961 > .flex-control-nav > li > a:hover {
+    background:rgba(255,162,0,0.75);
+}
+#metaslider_961 > .flex-control-nav > li > a:active {
+    background:rgba(255,162,0,0.75);
+}
+#metaslider_961 > .flex-control-nav > li > a:focus {
+    background:rgba(255,162,0,0.75);
+}
+
+@media (max-width:992px) {
+    .sidebar {
+        max-width:245px;
+    }
+
+    .sidebar p {
+        margin-left:15px;
+    }
+
+    .sidebar .head {
+        padding-left:15px;
+    }
+    .page {
+        padding-left:20px;
+        padding-right:33px;
+    }
+}
+
+@media (min-width:992px) {
+    .page-988 {
+        padding:0;
+        margin-top:75px;
+        margin-bottom:30px;
+    }
+
+    .page-822 {
+        padding-left:0px;
+        padding-right:0px;
+        padding-top:75px;
+        /*margin-top:5px;
+        margin-bottom:30px;*/
+    }
+
+    .sidebar > p > img {
+        width:275px;
+        margin-left:-50px;
+    }
+
+    .nav {
+        margin-left:0;
+    }
+
+    #left_top_image {
+        display:block;
+    }
+}
+
+@media (max-width:768px) {
+    .sidebar {
+        margin-left:30px;
+        width:80% !important;
+        max-width:80% !important;
+    }
+
+    .content {
+        min-height:0;
+    }
+
+    .footer {
+        margin-bottom:10px;
+        padding-left:0;
+
+    }
+
+    .claim {
+        display:none;
+    }
+
+    #navbar {
+        margin-top:0;
+        margin-left:0;
+        padding-left:0;
+        padding-top:0;
+    }
+
+    .navbar {
+        height:80px;
+    }
+
+    .navbar > .container {
+        height:80px;
+    }
+
+    .navbar-brand
+    {
+        margin-left:-23px;
+        width:250px;
+        height:80px;
+        overflow:hidden;
+    }
+
+    .navbar-toggle {
+        margin-right:30px;
+    }
+
+    .navbar-nav li {
+        margin-top:10px;
+        margin-bottom:10px;
+        font-size:14px;
+    }
+
+    #navbar > ul {
+        margin-left:0;
+        margin-top:0;
+        padding-top:0;
+    }
+
+    .menu_divider {
+        display:none!important;
+    }
+
+    .page {
+        padding-top:0;
+        padding-left:30px;
+        padding-right:30px;
+    }
+
+    .sidebar {
+        padding-top:45px;
+    }
+
+    #metaslider_961 .caption-wrap
+    {
+        left:0;
+        width:100%;
+        font-size:16px;
+        bottom:50px;
+    }
+
+    #metaslider_961 > .flex-viewport > ul > li > .caption-wrap {
+        position:absolute;
+        left:0px;
+        padding:5px;
+        padding-left:55px;
+        bottom:60px;
+        width:calc(100% - 50px);
+        font-size:18px;
+        color:#333;
+        background-color:rgba(255,255,255,0.80);
+    }
+    .tile {
+        max-width:100%;
+    }
+}
+@media (max-width:480px) {
+    .tile > div > p {
+        font-size: 13px;
+    }
+    .tile > div > .tile-button{
+        padding: 8px;
+    }
+}
