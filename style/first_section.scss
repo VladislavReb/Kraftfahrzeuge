@@ -157,12 +157,12 @@
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .first_section {
+    min-height: 500px;
     position: relative;
-    border-bottom: 1px solid transparent;
-    border-radius: 17px;
+    background-position-x: -285px;
 
     .header {
-      padding: 15px 10px;
+      padding: 20px 10px;
 
       & > a {
         display: none;
@@ -178,24 +178,22 @@
         &__dash {
           width: 31px;
           height: 31px;
-          border: 2px solid white;
-          border-radius: 3px;
           display: flex;
           flex-direction: column;
           align-items: center;
           justify-content: center;
-          gap: 5px;
+          gap: 7px;
 
           .dash {
-            width: 18px;
-            height: 2px;
+            width: 27px;
+            height: 3px;
             background-color: $mt_color;
             flex-shrink: 0;
           }
         }
 
         &__contact, &__address {
-          font-size: 12px;
+          font-size: 14px;
           font-weight: bold;
           color: white;
         }
@@ -208,6 +206,7 @@
       left: 0;
       z-index: 2;
       min-width: 320px;
+      min-height: 430px;
       display: flex;
       flex-direction: column;
       justify-content: start;
@@ -239,12 +238,12 @@
     }
 
     .main_banner {
-      margin: 60px 0 0 15px;
+      margin: 95px 0 0 15px;
       padding: 0 0 20px 0;
       gap: 20px;
 
       &__name {
-        font-size: 25px;
+        font-size: 34px;
       }
 
       &__separ {
@@ -253,7 +252,7 @@
       }
 
       &__text {
-        font-size: 10px;
+        font-size: 17px;
       }
     }
 

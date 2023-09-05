@@ -182,12 +182,12 @@ h3:hover {
 }
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .first_section {
+    min-height: 500px;
     position: relative;
-    border-bottom: 1px solid transparent;
-    border-radius: 17px;
+    background-position-x: -285px;
   }
   .first_section .header {
-    padding: 15px 10px;
+    padding: 20px 10px;
   }
   .first_section .header > a {
     display: none;
@@ -202,22 +202,20 @@ h3:hover {
   .first_section .header .mobile__menu__dash {
     width: 31px;
     height: 31px;
-    border: 2px solid white;
-    border-radius: 3px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 5px;
+    gap: 7px;
   }
   .first_section .header .mobile__menu__dash .dash {
-    width: 18px;
-    height: 2px;
+    width: 27px;
+    height: 3px;
     background-color: #a4292e;
     flex-shrink: 0;
   }
   .first_section .header .mobile__menu__contact, .first_section .header .mobile__menu__address {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
     color: white;
   }
@@ -227,6 +225,7 @@ h3:hover {
     left: 0;
     z-index: 2;
     min-width: 320px;
+    min-height: 430px;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -261,19 +260,19 @@ h3:hover {
     align-self: end;
   }
   .first_section .main_banner {
-    margin: 60px 0 0 15px;
+    margin: 95px 0 0 15px;
     padding: 0 0 20px 0;
     gap: 20px;
   }
   .first_section .main_banner__name {
-    font-size: 25px;
+    font-size: 34px;
   }
   .first_section .main_banner__separ {
     margin-left: 0;
     width: 150px;
   }
   .first_section .main_banner__text {
-    font-size: 10px;
+    font-size: 17px;
   }
   .first_section .main_contact_wrapper {
     display: none;
@@ -437,13 +436,13 @@ h3:hover {
 }
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .second_section {
-    padding: 55px 0 0;
+    padding: 85px 0 0;
   }
   .second_section__wrapper {
     gap: 22px;
   }
   .second_section__title {
-    font-size: 12px;
+    font-size: 17px;
   }
   .second_section__separ {
     width: 100px;
@@ -452,28 +451,28 @@ h3:hover {
     display: none;
   }
   .second_section__services {
-    gap: 15px;
-    width: 375px;
+    gap: 35px;
+    width: 305px;
     padding-bottom: 10px;
   }
   .second_section__services .service_item {
-    gap: 10px;
-    padding: 25px 10px 0;
+    gap: 17px;
+    padding: 35px 25px 35px;
     margin-bottom: 0;
-    width: 173px;
-    min-height: 70px;
+    width: 270px;
+    min-height: 150px;
     box-shadow: 5px;
   }
   .second_section__services .service_item img {
-    width: 31px !important;
-    height: 32px !important;
+    width: 41px !important;
+    height: 43px !important;
   }
   .second_section__services .service_item__title {
     padding-top: 12px;
-    font-size: 7px;
+    font-size: 14px;
   }
   .second_section__services .service_item__about {
-    font-size: 12px;
+    font-size: 19px;
   }
 }
 .third_section {
@@ -630,13 +629,13 @@ h3:hover {
 }
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .third_section {
-    padding: 25px 0 10px;
+    padding: 65px 0 10px;
   }
   .third_section__wrapper {
     gap: 20px;
   }
   .third_section__title {
-    font-size: 12px;
+    font-size: 17px;
   }
   .third_section__separ {
     width: 100px;
@@ -755,11 +754,11 @@ h3:hover {
     gap: 20px;
   }
   .fourth_section__title {
-    font-size: 12px;
+    font-size: 17px;
   }
   .fourth_section__separ {
     width: 100px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .fourth_section__sec_prt {
     padding: 0 0 0 10px;
@@ -772,7 +771,7 @@ h3:hover {
     box-shadow: 5px 5px 5px #a4292e;
   }
   .fourth_section__question, .fourth_section__answer {
-    font-size: 12px;
+    font-size: 15px;
   }
 }
 .fifth_section {
@@ -1014,7 +1013,7 @@ h3:hover {
     gap: 10px;
   }
   .fifth_section__title {
-    font-size: 12px;
+    font-size: 17px;
     margin-bottom: 20px;
   }
   .fifth_section__separ {
@@ -1050,6 +1049,7 @@ h3:hover {
     font-size: 10px;
   }
   .fifth_section__third_prt {
+    margin-left: -17px;
     padding-top: 15px;
     display: flex;
     flex-direction: column;

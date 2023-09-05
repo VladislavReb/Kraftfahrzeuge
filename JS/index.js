@@ -48,6 +48,7 @@ questions.forEach((elem) => {
     });
 })
 
+
 //Логика заезда из разных сторон блоков с вопросами.
 /*
 function comeQuestionBlocks (entries, observer) {
@@ -69,6 +70,7 @@ const optionsRender = {
 const observerSecond = new IntersectionObserver(comeQuestionBlocks, optionsRender);
 
 observerSecond.observe(targetElem);*/
+
 
 // Логика работы всплывающего меню для мобильной версии.
 const menuButton = document.querySelector(".mobile__menu__dash");
