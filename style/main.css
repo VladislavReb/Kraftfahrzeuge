@@ -184,10 +184,11 @@ h3:hover {
   .first_section {
     min-height: 725px;
     position: relative;
+    background-position-y: 75px;
     background-position-x: -520px;
   }
   .first_section .header {
-    padding: 20px 0;
+    padding: 20px 10px;
   }
   .first_section .header > a {
     display: none;
@@ -261,7 +262,7 @@ h3:hover {
     align-self: end;
   }
   .first_section .main_banner {
-    margin: 150px 0 0 15px;
+    margin: 190px 0 0 15px;
     padding: 0 0 20px 0;
     gap: 30px;
   }
@@ -437,7 +438,7 @@ h3:hover {
 }
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .second_section {
-    padding: 85px 0 0;
+    padding: 140px 0 0;
   }
   .second_section__wrapper {
     gap: 22px;
@@ -458,9 +459,9 @@ h3:hover {
   }
   .second_section__services .service_item {
     gap: 17px;
-    padding: 40px 25px;
+    padding: 40px 20px;
     margin-bottom: 0;
-    width: 280px;
+    width: 260px;
     min-height: 150px;
     box-shadow: 5px;
   }
@@ -630,7 +631,7 @@ h3:hover {
 }
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .third_section {
-    padding: 65px 0 10px;
+    padding: 120px 0 10px;
   }
   .third_section__wrapper {
     gap: 20px;
@@ -642,7 +643,7 @@ h3:hover {
     width: 100px;
   }
   .third_section__img {
-    height: 100px;
+    height: 105px;
     width: 125px;
   }
 }
@@ -745,7 +746,7 @@ h3:hover {
 }
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .fourth_section {
-    padding: 25px 0;
+    padding: 120px 0 10px;
   }
   .fourth_section__wrapper {
     flex-direction: column;
@@ -1004,7 +1005,7 @@ h3:hover {
 }
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .fifth_section {
-    padding: 15px 0 0;
+    padding: 120px 0 0;
     gap: 20px;
   }
   .fifth_section__wrapper {

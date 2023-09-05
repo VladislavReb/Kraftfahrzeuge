@@ -159,10 +159,11 @@
   .first_section {
     min-height: 725px;
     position: relative;
+    background-position-y: 75px;
     background-position-x: -520px;
 
     .header {
-      padding: 20px 0;
+      padding: 20px 10px;
 
       & > a {
         display: none;
@@ -239,7 +240,7 @@
     }
 
     .main_banner {
-      margin: 150px 0 0 15px;
+      margin: 190px 0 0 15px;
       padding: 0 0 20px 0;
       gap: 30px;
 
